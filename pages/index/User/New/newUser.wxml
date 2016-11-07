@@ -1,0 +1,17 @@
+<view class="container">
+    <text>Sign Up now to get first delivery for free</text>
+    
+    <form bindsubmit="formSubmit" bindreset="formReset">
+         <input placeholder="{{FirstName}}" auto-focus/>
+         <input placeholder="{{LastName}}" auto-focus/>
+         <input placeholder="{{Email}}" auto-focus/>
+         <input placeholder="{{Password}}" auto-focus/>
+         <input placeholder="{{ConfirmPassword}}" auto-focus/>
+         <input placeholder="{{Zipcode}}" auto-focus/>
+
+          <view class="btn-area">
+            <button formType="submit">Submit</button>
+            <button formType="reset">Reset</button>
+          </view>
+    </form>
+</view>
